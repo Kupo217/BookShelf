@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Edit text to enter name -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_title"
+        android:textSize="22sp"
+        android:layout_margin="20sp"/>
+
+    <!-- Edit text to enter age -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:textSize="22sp"
+        android:hint="@string/enter_author"/>
+
+    <!-- Button to add Name -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAdd"
+        android:layout_width="150sp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_music"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBookList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

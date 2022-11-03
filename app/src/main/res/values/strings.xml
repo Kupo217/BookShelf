@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookShelf</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_artist">Enter Artist</string>
+    <string name="add_music">Add Music</string>
+    <string name="print_music">Print Music</string>
+    <string name="title">Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="author">Author</string>
+    <string name="enter_author">Enter author</string>
+    <string name="update_record">Update Record</string>
+    <string name="update">UPDATE</string>
+    <string name="cancel">CANCEL</string>
+</resources>
